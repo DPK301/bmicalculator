@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+                input[type="text"]::placeholder {
+             
+             
+             text-align: right;
+         }
+ 
+    </style>
+    <script src="./script.js"></script>
+    <link rel="icon" type="image/png" href="https://blog.songtrust.com/hs-fs/hubfs/bmi-logo.png?width=900&name=bmi-logo.png">
+</head>
+<body>
+     <div style="padding:50px;margin:100px;" class="shadow">
+           <div><h1>BMI calculator</h1></div>
+           <hr>
+           <div class="row">
+            <div class="col-4"><div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Female</label>
+              </div></div>
+            <div  class="col-4"></div>
+            <div  class="col-4">
+              <!-- <input onclick="imperial()" type="radio" class="btn-check" name="options-base" id="option5" autocomplete="off" checked>
+                <label class="btn" for="option5">Imperial</label>
+                
+                <input onclick="metric()" type="radio" class="btn-check" name="options-base" id="option6" autocomplete="off">
+                <label class="btn" for="option6">Metric</label> -->
+                </div>
+
+             </div>
+
+             <div class="row">
+                <div class="col-4"><div class="mb-3">
+                    <label for="formGroupExampleInput" id="agel" class="form-label">Age(1 year or above)</label>
+                    <input type="text" class="form-control" id="age" placeholder="years">
+                  </div></div>
+                <div class="col-4"></div>
+                <div class="col-4"></div>
+             </div>
+
+             <div class="row">
+                <div class="col-4"><div class="mb-3">
+                    <label for="formGroupExampleInput" id="heightl" class="form-label">Height*</label>
+                    <input type="text" class="form-control" id="height" placeholder="cm">
+                  </div></div>
+                <div class="col-4"><div class="mb-3">
+                    <label for="formGroupExampleInput" id="weightl" class="form-label">Weight*</label>
+                    <input type="text" class="form-control" id="weight" placeholder="kg">
+                  </div></div>
+                <div class="col-4"></div>
+             </div>
+
+             <div class="row">
+                <div onclick="claculate()" class="col-4"><button type="button" class="btn btn-primary">Calculate</button></div>
+                <div  class="col-4"></div>
+                <div  class="col-4"></div>
+             </div>
+
+             <p id="content"></p>
+             <p id="content1"></p>
+    </div> 
+
+
+    
+</body>
+</html>
