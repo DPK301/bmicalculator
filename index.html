@@ -17,17 +17,17 @@
     <script src="./script.js"></script>
     <link rel="icon" type="image/png" href="https://blog.songtrust.com/hs-fs/hubfs/bmi-logo.png?width=900&name=bmi-logo.png">
 </head>
-<body>
-     <div style="padding:50px;margin:100px;" class="shadow">
+<body style="background-color: lightyellow;">
+     <div style="padding:50px;margin:100px; background-color: white;" class="shadow card border-0">
            <div><h1>BMI calculator</h1></div>
            <hr>
            <div class="row">
             <div class="col-4"><div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <input class="form-check-input shadow" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                 <label class="form-check-label" for="inlineRadio1">Male</label>
               </div>
               <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <input class="form-check-input shadow" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
                 <label class="form-check-label" for="inlineRadio2">Female</label>
               </div></div>
             <div  class="col-4"></div>
@@ -44,7 +44,7 @@
              <div class="row">
                 <div class="col-4"><div class="mb-3">
                     <label for="formGroupExampleInput" id="agel" class="form-label">Age(1 year or above)</label>
-                    <input type="text" class="form-control" id="age" placeholder="years">
+                    <input type="text" class="form-control shadow border-0" id="age" placeholder="years">
                   </div></div>
                 <div class="col-4"></div>
                 <div class="col-4"></div>
@@ -53,17 +53,17 @@
              <div class="row">
                 <div class="col-4"><div class="mb-3">
                     <label for="formGroupExampleInput" id="heightl" class="form-label">Height*</label>
-                    <input type="text" class="form-control" id="height" placeholder="cm">
+                    <input type="text" class="form-control shadow border-0" id="height" placeholder="cm">
                   </div></div>
                 <div class="col-4"><div class="mb-3">
                     <label for="formGroupExampleInput" id="weightl" class="form-label">Weight*</label>
-                    <input type="text" class="form-control" id="weight" placeholder="kg">
+                    <input type="text" class="form-control shadow border-0" id="weight" placeholder="kg">
                   </div></div>
                 <div class="col-4"></div>
              </div>
 
              <div class="row">
-                <div onclick="claculate()" class="col-4"><button type="button" class="btn btn-primary">Calculate</button></div>
+                <div onclick="claculate()" class="col-4"><button type="button" class="btn btn-primary shadow">Calculate</button></div>
                 <div  class="col-4"></div>
                 <div  class="col-4"></div>
              </div>
